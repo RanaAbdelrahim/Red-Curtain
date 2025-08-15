@@ -25,4 +25,3 @@ Install the dependencies: npm install.
 Start the app: npm start.
 Open http://localhost:(number) in your browser.
  
-OR you can open it from this link on github : 
