@@ -1,0 +1,40 @@
+.movie-details-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* it allows scrolling if content is big */
+  padding: 20px;
+}
+
+.movie-details-container {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  color: #580505;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.movie-details-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #580505;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.movie-details-container p {
+  font-size: 1rem;
+  margin: 0.8rem 0;
+  text-align: center;
+}
